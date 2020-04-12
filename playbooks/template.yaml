@@ -1,0 +1,8 @@
+---
+- name: My First Playbook
+  hosts: all
+  become: true
+  become_method: sudo
+  user: centos
+  tasks:
+  - name:
