@@ -18,8 +18,7 @@
        - unzip
        - mariadb-server
        - php-mysql
-       - php
-       - php-gd
+      
       ignore_errors: true
 
     - name: Download wordpress Package
