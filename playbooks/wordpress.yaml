@@ -1,6 +1,6 @@
 ---
 - name: Installs wordpress
-  hosts: all
+  hosts: wordpress
   become: yes
   become_user: sudo
   tasks:
