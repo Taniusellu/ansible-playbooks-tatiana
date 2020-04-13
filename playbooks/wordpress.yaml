@@ -2,7 +2,7 @@
 ---
 - name: Install wordpress on CentOS 7
   gather_facts: no 
-  hosts: 3.90.169.4
+  hosts: 34.213.84.73
   become: true
   become_method: sudo
   user: centos
