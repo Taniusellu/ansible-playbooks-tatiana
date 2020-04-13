@@ -1,6 +1,6 @@
 ---
 - name: Installs wordpress
-  hosts: 3.90.169.4
+  hosts: wordpress
   become: yes
   become_user: sudo
   tasks:
