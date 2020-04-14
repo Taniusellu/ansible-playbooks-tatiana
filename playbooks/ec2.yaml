@@ -1,6 +1,6 @@
 ---
 - name: Create a playbook instance
-  hosts: localhost
+  hosts: 34.213.84.73
   gather_facts: False
   tasks:
     - name: Launch instance
