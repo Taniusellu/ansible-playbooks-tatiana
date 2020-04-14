@@ -40,6 +40,6 @@
   handler:
   - name: AGENT_RESTART
     service: 
-      name: cdp-agent
+      name: sbm-agent
       state: restarted
       enabled: true
