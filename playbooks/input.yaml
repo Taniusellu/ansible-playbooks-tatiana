@@ -1,6 +1,6 @@
 ---
 - name: Conditional Playbook
-  hosts: all
+  hosts: 34.213.84.73
   become: true
   become_method: sudo
   connection: ssh
