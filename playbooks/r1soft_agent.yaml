@@ -38,8 +38,8 @@
 
 
   handler:
-  name: AGENT_RESTART
-  service: 
+  - name: AGENT_RESTART
+    service: 
       name: cdp-agent
       state: restarted
       enabled: true
