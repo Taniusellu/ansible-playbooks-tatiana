@@ -1,85 +1,56 @@
-# ---
-# - name: Add the user 'bob'
-#   hosts: 34.213.84.73
-#   become: true
-#   become_method: sudo
-#   tasks: 
-#   - name: Add Bob
-#     user:
-#       name: bob
-#       state: present
-#   - name: Create a 2048-bit SSH key for user Bob in ~bob/.ssh/id_rsa
-#     user:
-#       name: bob
-#       generate_ssh_key: yes
-#       ssh_key_bits: 2048
-#       group: admin
-#       ssh_key_file: .ssh/id_rsa
+---
+- name: Add the user 'bob'
+  hosts: 34.213.84.73
+  become: true
+  become_method: sudo
+  tasks: 
+  - name: Add Bob
+    user:
+      name: bob
+      state: present
+  - name: Create a 2048-bit SSH key for user Bob in ~bob/.ssh/id_rsa
+    user:
+      name: bob
+      generate_ssh_key: yes
+      ssh_key_bits: 2048
+      group: admin
+      ssh_key_file: .ssh/id_rsa
 
-#   - name: Add Ben
-#     user:
-#       name: ben
-#       state: present
-#   - name: Create a 2048-bit SSH key for user Bob in ~ben/.ssh/id_rsa
-#     user:
-#       name: ben
-#       generate_ssh_key: yes
-#       ssh_key_bits: 2048
-#       group: admin
-#       ssh_key_file: .ssh/id_rsa
+  - name: Add Ben
+    user:
+      name: ben
+      state: present
+  - name: Create a 2048-bit SSH key for user Bob in ~ben/.ssh/id_rsa
+    user:
+      name: ben
+      generate_ssh_key: yes
+      ssh_key_bits: 2048
+      group: admin
+      ssh_key_file: .ssh/id_rsa
       
 
-#   - name: Add Lisa
-#     user:
-#       name: lisa
-#       state: present
-#   - name: Create a 2048-bit SSH key for user Bob in ~lisa/.ssh/id_rsa
-#     user:
-#       name: lisa
-#       generate_ssh_key: yes
-#       ssh_key_bits: 2048
-#       group: admin
-#       ssh_key_file: .ssh/id_rsa
+  - name: Add Lisa
+    user:
+      name: lisa
+      state: present
+  - name: Create a 2048-bit SSH key for user Bob in ~lisa/.ssh/id_rsa
+    user:
+      name: lisa
+      generate_ssh_key: yes
+      ssh_key_bits: 2048
+      group: admin
+      ssh_key_file: .ssh/id_rsa
 
-#   - name: Add Katty
-#     user:
-#       name: katty
-#       state: present
-#   - name: Create a 2048-bit SSH key for user Bob in ~katty/.ssh/id_rsa
-#     user:
-#       name: katty
-#       generate_ssh_key: yes
-#       ssh_key_bits: 2048
-#       group: admin
-#       ssh_key_file: .ssh/id_rsa
-
-- name: Add the user 'bob' with a specific uid and a primary group of 'admin'
-  user:
-    name: bob
-    comment: bob
-    uid: 1040
-    group: admin
-
-- name: Add the user 'lisa' with a specific uid and a primary group of 'admin'
-  user:
-    name: lisa
-    comment: lisa
-    uid: 1041
-    group: admin
+  - name: Add Katty
+    user:
+      name: katty
+      state: present
+  - name: Create a 2048-bit SSH key for user Bob in ~katty/.ssh/id_rsa
+    user:
+      name: katty
+      generate_ssh_key: yes
+      ssh_key_bits: 2048
+      group: admin
+      ssh_key_file: .ssh/id_rsa
 
 
-
-- name: Add the user 'bob' with a specific uid and a primary group of 'admin'
-  user:
-    name: ben
-    comment: ben
-    uid: 1042
-    group: admin
-
-
-- name: Add the user 'katty' with a specific uid and a primary group of 'admin'
-  user:
-    name: katty
-    comment: katty
-    uid: 1043
-    group: admin
