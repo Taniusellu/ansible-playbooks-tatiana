@@ -32,7 +32,7 @@
       
   - name: Get Key
     when: (ansible_distribution == "CentOS" and ansible_distribution_major_version == "6")
-    shell: "r1soft-setup --get-key http://35.176.38.145/"
+    shell: "r1soft-setup --get-key http://35.176.38.145/" #use Ip of Instance or domain-name 
 
   handlers:
   - name: AGENT_RESTART
