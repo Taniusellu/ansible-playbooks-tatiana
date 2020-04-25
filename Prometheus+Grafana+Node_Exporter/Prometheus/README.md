@@ -11,4 +11,18 @@ Documentation
 ==============
 https://www.fosslinux.com/10398/how-to-install-and-configure-prometheus-on-centos-7.htm
 
-<img width="600" alt="Screenshot_541" src="https://user-images.githubusercontent.com/13994900/80279349-bc59ca80-86c2-11ea-9df8-7f4dd1084ef2.png">
+<img width="750" alt="Screenshot_541" src="https://user-images.githubusercontent.com/13994900/80279349-bc59ca80-86c2-11ea-9df8-7f4dd1084ef2.png">
+
+Prerequistes
+==============
+
+* yum install ansible wget git 
+* Python Version - Python 2.7.5 
+
+Steps
+======
+
+1. ansible-playbook Prometheus_install.yml
+2. http://Server-IP:9090/graph     #Take server Ip
+
+<img width="859" alt="Screenshot_526" src="https://user-images.githubusercontent.com/13994900/80280938-1a8bab00-86cd-11ea-8fc5-ee14decfd914.png">
