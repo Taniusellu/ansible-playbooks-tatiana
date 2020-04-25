@@ -21,22 +21,22 @@ Prerequistes
 
 Steps
 ======
-1. git clone 
-1. ansible-playbook ansible-playbooks-tatiana
+1. git clone https://github.com/Taniusellu/ansible-playbooks-tatiana.git
+2. ansible-playbook Prometheus+Grafana+Node_Exporter/Prometheus/Prometheus_install.yml
 
-2. http://Server-IP:9090/graph     #Take server Ip
+3. http://Server-IP:9090/graph     #Take server Ip
 
 <img width="800" alt="Screenshot_543" src="https://user-images.githubusercontent.com/13994900/80281024-e2d13300-86cd-11ea-918e-e7f3d5147e2a.png">
 
-3. Install Node_Exporter on different machine 
+4. Install Node_Exporter on different machine 
     * https://github.com/Taniusellu/ansible-playbooks-tatiana/tree/master/Prometheus%2BGrafana%2BNode_Exporter/Node_Exporter
     
-4. vi /etc/prometheus/prometheus.yml
+5. vi /etc/prometheus/prometheus.yml
    * add the next task with your Ip- Node_Exporter
   <img width="450" alt="Screenshot_546" src="https://user-images.githubusercontent.com/13994900/80281593-e9fa4000-86d1-11ea-84d6-b39936e28ebe.png">
-5.  systemctl restart prometheus
+6.  systemctl restart prometheus
 
-6. Collect CPU using the Node_Exporter 
+7. Collect CPU using the Node_Exporter 
 <img width="650" alt="Screenshot_547" src="https://user-images.githubusercontent.com/13994900/80281646-43fb0580-86d2-11ea-95f7-87fc0650cd8f.png">
 
 
