@@ -4,6 +4,7 @@
   become: true
   become_method: sudo
   user: centos
+  ignor_erros: yes
   tasks:
   - name: Update the system
     shell: "sudo yum update -y "
@@ -25,9 +26,7 @@
     
 
   - name: Install Prometheus
-    become: centos
-    get_url:
-      url: "https://github.com/prometheus/prometheus/releases/download/v2.3.2/prometheus-2.3.2.linux-amd64.tar.gz"
+    shell:  "sudo wget https://github.com/prometheus/prometheus/releases/download/v2.3.2/prometheus-2.3.2.linux-amd64.tar.gz"
    
 
   - name: Unzip Prometheus 
