@@ -25,4 +25,4 @@ Steps
 1. ansible-playbook Prometheus_install.yml
 2. http://Server-IP:9090/graph     #Take server Ip
 
-<img width="859" alt="Screenshot_526" src="https://user-images.githubusercontent.com/13994900/80280938-1a8bab00-86cd-11ea-8fc5-ee14decfd914.png">
+<img width="750" alt="Screenshot_543" src="https://user-images.githubusercontent.com/13994900/80281024-e2d13300-86cd-11ea-918e-e7f3d5147e2a.png">
