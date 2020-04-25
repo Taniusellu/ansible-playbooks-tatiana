@@ -37,5 +37,10 @@ Steps
 5.  systemctl restart prometheus
 
 6. Collect CPU using the Node_Exporter 
-<img width="550" alt="Screenshot_547" src="https://user-images.githubusercontent.com/13994900/80281646-43fb0580-86d2-11ea-95f7-87fc0650cd8f.png">
+<img width="650" alt="Screenshot_547" src="https://user-images.githubusercontent.com/13994900/80281646-43fb0580-86d2-11ea-95f7-87fc0650cd8f.png">
 
+
+7. Take a Node_Exporter and Perform task on Grafana
+<img width="350" alt="Screenshot_548" src="https://user-images.githubusercontent.com/13994900/80281703-a81dc980-86d2-11ea-9ff9-14e79a94d556.png">
+
+8. Find more info about Grafana on this link #Grafana playbook
