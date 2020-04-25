@@ -25,3 +25,6 @@ Steps
 3. ansible-playbook node_exporter.yaml
 4. systemctl status node_exporter
 <img width="650" alt="Screenshot_544" src="https://user-images.githubusercontent.com/13994900/80281443-d1d5f100-86d0-11ea-9926-90499f39f01f.png">
+5. http://Server-IP:9100
+<img width="650" alt="Screenshot_545" src="https://user-images.githubusercontent.com/13994900/80281492-24171200-86d1-11ea-9b14-d69653edd1af.png">
+
