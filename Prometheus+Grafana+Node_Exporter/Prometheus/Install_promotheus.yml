@@ -9,7 +9,7 @@
     shell: "sudo yum update -y "
     
   - name: Add user
-    shell: "sudo useradd --no-create-home --shell /bin/false prometheuss"
+    shell: "sudo useradd --no-create-home --shell /bin/false prometheus"
 
   - name: Create a folder
     shell: "sudo mkdir /etc/prometheus"
@@ -39,7 +39,7 @@
 
 
   - name: Copy binaries 
-    commands: "{{item}}"
+    command: "{{item}}"
     with_items:
     - sudo cp prometheus-files/prometheus /usr/local/bin/
     - sudo cp prometheus-files/promtool /usr/local/bin/
@@ -49,7 +49,7 @@
 
   
   - name: Move console files
-    commands: "{{item}}"
+    command: "{{item}}"
     with_items:
     - sudo cp -r prometheus-files/consoles /etc/prometheus 
     - sudo cp -r prometheus-files/console_libraries /etc/prometheus 
@@ -75,7 +75,7 @@
 
 
   - name:  Restarts
-    commands: "{{item}}"
+    command: "{{item}}"
     with_items:
     - sudo iptables -F
     - sudo systemctl daemon-reload 
