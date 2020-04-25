@@ -3,10 +3,11 @@
   hosts: localhost
   become: true
   become_method: sudo
-  user: prometheus
+  user: centos
   tasks:
     - name: Add users, Create folders, Change permission
       command: "{{item}}
+      with_items:
       - sudo useradd --no-create-home --shell /bin/false prometheus
       - sudo mkdir -p /etc/prometheus
       - sudo mkdir -p /var/lib/prometheus
