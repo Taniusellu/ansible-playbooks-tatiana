@@ -4,7 +4,7 @@
   become: true
   become_method: sudo
   user: centos
-  ignor_erros: yes
+  ignore_errors: yes
   tasks:
   - name: Update the system
     shell: "sudo yum update -y "
