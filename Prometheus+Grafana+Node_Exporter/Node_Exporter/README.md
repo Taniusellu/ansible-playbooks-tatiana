@@ -1,4 +1,4 @@
-#The Prometheus Node Exporter exposes a wide variety of hardware- and kernel-related metrics.
+# The Prometheus Node Exporter exposes a wide variety of hardware- and kernel-related metrics.
 
 
 In this guide, you will:
