@@ -40,10 +40,14 @@ Steps
 <img width="550" alt="Screenshot_555" src="https://user-images.githubusercontent.com/13994900/80293967-ff9b5400-8729-11ea-83ab-753d3d9669f8.png">
 ### 10. Take the node exporter from Prometheus and add (No metrics found) / Save it
 
-<img width="750" alt="Screenshot_556" src="https://user-images.githubusercontent.com/13994900/80293978-3e310e80-872a-11ea-8285-a47e1444797d.png">
+<img width="750" alt="Screenshot_558" src="https://user-images.githubusercontent.com/13994900/80294185-5a35af80-872c-11ea-8868-fca78e841b2d.png">
 
 ### 11. Give a Dashboard name 
 <img width="550" alt="Screenshot_557" src="https://user-images.githubusercontent.com/13994900/80293990-7b959c00-872a-11ea-88b1-f3b68f55385c.png">
+
+Result 
+=======
+<img width="550" alt="Screenshot_559" src="https://user-images.githubusercontent.com/13994900/80294202-7fc2b900-872c-11ea-959a-1445bd65c921.png">
 
 
 
