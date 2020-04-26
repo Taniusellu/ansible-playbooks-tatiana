@@ -25,7 +25,7 @@ Prerequistes
 
 Steps
 ======
-### 1. git clone
+### 1. git clone git@github.com:Taniusellu/ansible-playbooks-tatiana.git
 ### 2. ansible-playbook Prometheus+Grafana+Node_Exporter/Prometheus/grafana.yaml
 ### 3. http://Server-IP:3000     #Take server Ip
 ### 4. <img width="750" alt="Screenshot_550" src="https://user-images.githubusercontent.com/13994900/80293549-0758f980-8726-11ea-9b10-90c7e40e2819.png">
