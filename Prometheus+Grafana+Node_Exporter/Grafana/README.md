@@ -35,4 +35,4 @@ Steps
   <img width="650" alt="Screenshot_552" src="https://user-images.githubusercontent.com/13994900/80293613-3ec7a600-8726-11ea-8094-9061b8e30aca.png">
 ### 7. Add Prometheus-Server-Ip:9090
 <img width="600" alt="Screenshot_553" src="https://user-images.githubusercontent.com/13994900/80293619-4edf8580-8726-11ea-9307-a80f00ee4f26.png">
-8.
+8. 
