@@ -31,5 +31,5 @@
     systemd:
       name: ncpa_listener
       state: restarted
-      
+       
       
