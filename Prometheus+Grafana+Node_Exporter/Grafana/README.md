@@ -35,4 +35,15 @@ Steps
   <img width="650" alt="Screenshot_552" src="https://user-images.githubusercontent.com/13994900/80293613-3ec7a600-8726-11ea-8094-9061b8e30aca.png">
 ### 7. Add Prometheus-Server-Ip:9090
 <img width="600" alt="Screenshot_553" src="https://user-images.githubusercontent.com/13994900/80293619-4edf8580-8726-11ea-9307-a80f00ee4f26.png">
-8. 
+### 8. Buid a dashboard
+### 9. Add Query
+<img width="550" alt="Screenshot_555" src="https://user-images.githubusercontent.com/13994900/80293967-ff9b5400-8729-11ea-83ab-753d3d9669f8.png">
+### 10. Take the node exporter from Prometheus and add (No metrics found) / Save it
+
+<img width="750" alt="Screenshot_556" src="https://user-images.githubusercontent.com/13994900/80293978-3e310e80-872a-11ea-8285-a47e1444797d.png">
+
+### 11. Give a Dashboard name 
+<img width="550" alt="Screenshot_557" src="https://user-images.githubusercontent.com/13994900/80293990-7b959c00-872a-11ea-88b1-f3b68f55385c.png">
+
+
+
