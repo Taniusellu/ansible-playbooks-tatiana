@@ -8,7 +8,7 @@ In this guide, you will:
 Documentations
 ==============
 
-https://www.fosslinux.com/10398/how-to-install-and-configure-prometheus-on-centos-7.htm
+
 
 <img width="750" alt="Screenshot_541" src="https://user-images.githubusercontent.com/13994900/80279349-bc59ca80-86c2-11ea-9df8-7f4dd1084ef2.png">
 
